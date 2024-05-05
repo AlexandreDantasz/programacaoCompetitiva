@@ -15,5 +15,5 @@ function main(input) {
     const number = parseInt(input);
     const resp = [8, 4, 2, 6];
     const respIndex = number % 4;
-    console.log(resp[respIndex]);
+    number == 0 ? console.log(1) : console.log(resp[respIndex]);
 }
