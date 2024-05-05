@@ -24,8 +24,6 @@ function main(input) {
     arr_a.sort((a, b) => {return a - b});
     let resp = "";
     for (let b = 0; b < arr_b.length; b++) {
-        side = 0;
-        stateSide = 0;
         let index = binarySearch(arr_a, arr_b[b], 0, arr_a.length - 1);
         resp += index + ' ';
     }
