@@ -1,6 +1,7 @@
 ﻿public class Solution {
     public int MaximumLengthSubstring(string str) {
         SortedDictionary<char, int> myMap = new SortedDictionary<char, int>();
+        int end = 0, start = 0, resp = 0;
         while (end < str.Length) {
             if (myMap.ContainsKey(str[end])) { // contains the letter
                 if (myMap[str[end]] < 2) {
