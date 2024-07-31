@@ -1,5 +1,13 @@
 4
-a
-aaa
-abb
-password
+8
+.......x
+.x.xx...
+2
+..
+..
+3
+xxx
+xxx
+9
+..x.x.x.x
+x.......x
