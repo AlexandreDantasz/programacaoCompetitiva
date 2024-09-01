@@ -14,5 +14,6 @@ int main()
     cin >> a >> b;
 
     cout << 6 - a - b << '\n';
+
     return 0;
 }
