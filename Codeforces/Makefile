@@ -1,4 +1,4 @@
 exec: main
 	./main.exe
 main:
-	g++ 2009E.cpp -o main.exe
+	g++ 2014B.cpp -o main.exe
