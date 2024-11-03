@@ -51,6 +51,8 @@ class Program
                 }
 
             }
+
+            Console.WriteLine();
         }
     }
 }
